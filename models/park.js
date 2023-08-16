@@ -11,7 +11,7 @@ class Park {
     }
 
     removeDinosaur(dinosaur) {
-        this.dinosaurs.pop(dinosaur)
+        this.dinosaurs.splice(this.dinosaurs.indexOf(dinosaur),1)
     }
 
     findMostGuests() {
